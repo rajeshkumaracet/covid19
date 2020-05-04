@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+streamlit = "*"
+pandas = "*"
+plotly-graph-objects = "*"
+plotly-io = "*"
+plotly-express = "*"
+numpy = "*"
+pydeck = "*"
+
+[requires]
+python_version = "3.7"
