@@ -12,8 +12,9 @@ st.title("🦠 COVID-19 DASHBOARD");
 st.sidebar.markdown("# NAVIGATION")
 options = st.sidebar.radio("Choose different page from the below menu:",("COVID-19 - India","COVID-19 - World", "Useful Links & Sources", "Prevent from COVID-19","Donate to Charity",));
 st.sidebar.markdown("# ABOUT")
-st.sidebar.info("Hey! Nice of you to come here :smile: Let me know if you liked this little experiment. If you find any bugs or need any more information. Contact me:\n\nTelegram: **💬 @rajeshkumaar**\n\n **📧 rajeshkumaracet@gmail.com**")
+st.sidebar.info("Hey! Nice of you to come here :smile: Let me know if you liked this little experiment. If you find any bugs or need any more information. Ping Me: \n\nTelegram: **💬 @rajeshkumaar**\n\n **📧 rajeshkumaracet@gmail.com**")
 st.sidebar.info("**Data Sources:** Johns Hopkins University (GitHub) & covid19india.")
+st.sidebar.warning("**Disclaimer:** The illustrations provided by using covid19india & Johns Hopkins University datasets only.")
 orginal_data = pd.read_csv("https://api.covid19india.org/csv/latest/state_wise.csv");
 state_wise = pd.read_csv("https://api.covid19india.org/csv/latest/state_wise.csv", index_col="State"); 
 get_data = state_wise['Last_Updated_Time'][0];
