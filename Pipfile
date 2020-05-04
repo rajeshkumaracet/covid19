@@ -8,9 +8,7 @@ verify_ssl = true
 [packages]
 streamlit = "*"
 pandas = "*"
-plotly-graph-objects = "*"
-plotly-io = "*"
-plotly-express = "*"
+plotly = "*"
 numpy = "*"
 pydeck = "*"
 
